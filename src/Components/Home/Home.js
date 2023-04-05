@@ -1,18 +1,13 @@
-
-// import Header from '../Header/Header';
-
+import '../Home/Home.css';
+import Header from '../Header/Header';
 import Tours from "../Tours/Tours";
-
 import Footer from "../Footer/Footer";
 
-import '../Home/Home.css';
- 
   function Home(props) {
-    const data = props.data;
      return (
         <>
-        {/* <Header/>   */}
-        <Tours data={data}/>     
+        <Header/>  
+        <Tours data={props.data}/>     
         <Footer/>
         </>
        );    

@@ -1,9 +1,12 @@
-.navbar {
+#navlink {
     text-decoration: none;
-    margin:0 100px 0 100px;
+    margin-left:100px ;
+    margin-top:20px ;
+    font-size:x-large;
     
     
 }
-nav{
-    margin: 20px 0 20px 0;
+#navnav{
+    padding-bottom:10px ;
+    background-color: rgb(183, 193, 235);
 }

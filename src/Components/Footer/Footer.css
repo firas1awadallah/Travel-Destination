@@ -1,7 +1,15 @@
-h2{
+#fotterh2{
     margin-left: 10px;
 }
-a{margin-left: 10px;
-    padding-bottom: 20px;
+.footera{
+    margin-left: 10px;
+    
     text-decoration-line: none;
+    text-align: center;
+   
+    
+}
+#fottersec{
+    padding-bottom: 10px;
+    background-color: rgb(183, 193, 235);
 }
