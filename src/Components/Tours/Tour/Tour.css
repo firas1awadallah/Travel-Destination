@@ -1,0 +1,17 @@
+#tourh2{
+    margin-left: 10px;
+    }
+    #tourh3{
+        margin-left: 10px;
+        }
+    #tourimg{
+        margin:10px 10px 10px 10px;
+    width: 400px;
+    height: 400px;
+    }
+  
+#tourdev{
+    display: inline-block;
+    margin: 10px 10px 10px 17px;
+    background-color: rgb(188, 170, 204);
+}
