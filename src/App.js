@@ -1,13 +1,21 @@
-
+import './App.css';
 import Home from "./Components/Home/Home";
-import './Components/Home/Home.css';
-const db = require("./data/db.json");
+import { Routes, Route } from "react-router-dom";
+import Navbar from "./Components/Navbar/Navbar";
+import TourDetails from "./Components/TourDetails/TourDetails";
+const data = require("./data/db.json");
 function App() {
   return (
     <>
-     <Home data={db}/>
+    <Navbar/>
+    <Routes>
+      <Route path="/"  element={<Home data={data}/>}></Route>
+      <Route path="/city/:id"  element={<TourDetails/>}></Route>
+    </Routes>
+      
     </>
   ); 
 }
+
 
 export default App;

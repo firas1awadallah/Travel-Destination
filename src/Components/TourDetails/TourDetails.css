@@ -1,0 +1,14 @@
+.botton{
+    padding: 5px 10px ;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color:  #008CBA;;
+    color: rgb(246, 246, 250);
+}
+img{
+    width: 500px;
+    height: 500px;
+}
+.detailsdiv{
+    margin-left: 20px;
+}

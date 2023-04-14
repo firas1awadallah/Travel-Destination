@@ -1,11 +1,12 @@
+import "../Header/Header.css"
 function Header (){
-return (
-    <>
-    <div>
-<h1>This is my Header</h1>
-<hr></hr>
-    </div> 
-    </>
-)
-}
-export default Header;
+    return (
+        <>
+       <section id="headersec">
+    <h1 id="headerh1">Travel Destination</h1>
+    <hr></hr>
+    </section>
+        </>
+    )
+    }
+    export default Header;
